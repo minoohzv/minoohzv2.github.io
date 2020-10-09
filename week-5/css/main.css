@@ -40,3 +40,7 @@ nav ul a{
 #tow{
     background: orange;
 }
+/* we can add multiple clasess to one element */
+.large-text{
+    font-size: 20px;
+}
