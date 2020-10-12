@@ -3,7 +3,8 @@ body{
     font-size: 18px;
 }
 
-.lightblue-background {
+header,
+footer {
     background: lightblue;
 }
 
@@ -19,8 +20,8 @@ ul {
     list-style-type: square;
 }
 
-ul:nth-child(odd) {
-    background: darkgray;
+aside ul li:nth-child(odd) {
+    background: orange;
   }
 
 
