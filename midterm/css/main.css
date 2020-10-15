@@ -1,0 +1,54 @@
+body {
+background: lightblue;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0px 90px;
+}
+
+.image {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 300px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+td{
+    border:1px solid black;
+    border-top: none;
+    border-bottom: none;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+  
+.send {
+    background: lightblue;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    width:100%;
+
+  }
+  .centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
