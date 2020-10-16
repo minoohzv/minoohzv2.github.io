@@ -7,7 +7,7 @@ margin: 0px 90px;
 .image {
     float: left;
     margin-right: 10px;
-    margin-bottom: 300px;
+    margin-bottom: 10px;
 }
 
 table, th, td {
@@ -35,6 +35,15 @@ a:link {
     text-decoration: underline;
   }
   
+  section {
+    background-color: lightblue;
+    width: initial;
+    border: 1px solid black;
+    padding: 30px 20px;
+    margin: 20px;
+  }
+
+
 .send {
     background: lightblue;
 }
@@ -48,7 +57,7 @@ a:link {
   }
   .centered {
     position: absolute;
-    top: 70%;
-    left: 50%;
+    top: 100%;
+    left: 100%;
     transform: translate(-50%, -50%);
     font-size: 45px;
