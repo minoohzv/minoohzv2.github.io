@@ -35,6 +35,14 @@ a:link {
     text-decoration: underline;
   }
 
+  #textboxid {
+    width: 100%;
+  }
+
+  #message {
+    height: 90px; width:100%;
+  }
+
   .wrapper {
     width:200px; height:600px;
   }
