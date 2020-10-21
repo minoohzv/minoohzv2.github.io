@@ -1,8 +1,7 @@
 body {
-background: lightblue;
+background: rgb(171, 212, 207);
 font-family: Arial, Helvetica, sans-serif;
 margin: 0px 90px;
-border: 1px solid black;
 padding: 1.5em;
 width: 80%;
 box-sizing: border-box;
@@ -16,6 +15,8 @@ img{
 .container{
   max-width: 1024px;
   margin: 0 auto;
+  padding: 0.5em;
+  background-color: rgb(213, 233, 231);
 }
 
 .images {
@@ -32,7 +33,7 @@ nav ul li{
   display: inline-block;
   margin: 0;
   width: 30%;
-  padding: 1em;
+  padding:1em;
   box-sizing: border-box;
   border-right: 1px solid black;
   font-size: 20px;
@@ -75,7 +76,7 @@ a:link {
   
 
   section {
-    background-color: lightblue;
+    background-color: rgb(213, 233, 231);
     width: initial;
     border: 1px solid black;
     padding: 30px 20px;
@@ -84,7 +85,11 @@ a:link {
 
 
 .send {
-    background: lightblue;
+    background-color: rgb(213, 233, 231);
+    font-size: 8px;
+    height:30px;
+    width: 40px;
+    border: 1px solid black;
 }
 
 .mainimage {
@@ -102,4 +107,8 @@ a:link {
   width: 100%;
   transform: translate(-50%, 50%);
   font-size: 50px;
+}
+
+.site-footer{
+  font-size: 12px;
 }
