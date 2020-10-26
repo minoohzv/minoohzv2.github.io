@@ -7,15 +7,24 @@ width: 80%;
 box-sizing: border-box;
 float: left;
 }
+main{
+  padding: 10px;
+}
 
 img{
   width: 100%;
 }
 
+p{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .container{
   max-width: 1024px;
   margin: 0 auto;
-  padding: 0.5em;
+  padding: 0em;
+  margin: 15px;
   background-color: rgb(213, 233, 231);
 }
 
@@ -23,18 +32,18 @@ img{
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
-
 }
 
 nav ul{
   list-style: none;
+  margin: 0px;
 }
 
 nav ul li{
   display: inline-block;
   margin: 0;
   width: 30%;
-  padding:1em;
+  padding:0em;
   box-sizing: border-box;
   border-right: 1px solid black;
   font-size: 20px;
@@ -49,14 +58,17 @@ nav ul li:last-child{
 
 a:link {
     text-decoration: none;
+    color: black;
   }
   
   a:visited {
     text-decoration: none;
+    color: rgb(171, 212, 207);
   }
   
   a:hover {
     text-decoration: underline;
+    
   }
   
   a:active {
@@ -117,6 +129,7 @@ a:link {
   width: 100%;
   transform: translate(-50%, 50%);
   font-size: 50px;
+
 }
 
 .footer{
