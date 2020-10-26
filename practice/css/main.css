@@ -23,6 +23,7 @@ img{
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
+
 }
 
 nav ul{
@@ -73,14 +74,23 @@ a:link {
   .wrapper {
     width:200px; height:600px;
   }
+
+  #radio {
+    font-size: 12px;
+  }
   
+  ul.demo{
+    margin: 0;
+    padding: 1em;
+    }
+
 
   section {
     background-color: rgb(213, 233, 231);
     width: initial;
     border: 1px solid black;
     padding: 30px 20px;
-    margin: 20px;
+    margin: 0.1em;
   }
 
 
@@ -97,8 +107,8 @@ a:link {
     text-align: center;
     color: white;
     width:100%;
-
   }
+
   /* Centered text */
 .centered {
   position: absolute;
@@ -109,6 +119,13 @@ a:link {
   font-size: 50px;
 }
 
-.site-footer{
+.footer{
   font-size: 12px;
+  position: relative;
+  right: 3em;
+  top: 1.5em;
+  width: 100%;
+  color: black;
+  text-align: right;
+  padding-bottom: 30px;
 }
