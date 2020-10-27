@@ -4,6 +4,12 @@ body {
   margin: 0px;
   }
 
+  h1{
+    font-size: 26px;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+  }
+
 main{
   padding: 10px;
 }
@@ -38,13 +44,13 @@ nav ul{
 nav ul li{
   display: inline-block;
   width: 33%;
-
   box-sizing: border-box;
   border-right: 1px solid black;
   font-size: 20px;
   text-align: center; 
-  
+  float: left;
 }
+
 nav ul li:last-child{
   border: none;
 }
@@ -70,16 +76,31 @@ a:link {
     text-decoration: underline;
   }
 
-  .textboxid {
+ .information {
+  background-color: rgb(213, 233, 231);
+  width: initial;
+  border: 1px solid black;
+  padding: 30px 20px;
+  margin: 0.1em;
+
+ }
+
+  #Yname { width: 100%;
+          margin-top: 0.5em;
+  }
+
+  #email {
     width: 100%;
+    margin-top: 0.5em;
   }
 
   #message {
     height: 90px; width:100%;
+    margin-top: 0.5em;
   }
 
-  .wrapper {
-    width:200px; height:600px;
+  #wrapper {
+     height:100px;
   }
 
   #radio {
@@ -90,16 +111,6 @@ a:link {
     margin: 0;
     padding: 1em;
     }
-
-
-  section {
-    background-color: rgb(213, 233, 231);
-    width: initial;
-    border: 1px solid black;
-    padding: 30px 20px;
-    margin: 0.1em;
-  }
-
 
 .send {
     background-color: rgb(213, 233, 231);
@@ -124,7 +135,6 @@ a:link {
   width: 100%;
   transform: translate(-50%, 50%);
   font-size: 50px;
-
 }
 
 .footer{
