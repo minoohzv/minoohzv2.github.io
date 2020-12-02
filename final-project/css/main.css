@@ -1,0 +1,242 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ---------------------------------
+          Custom Styles
+------------------------------------ */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    line-height: 1.5;
+  }
+
+  /* ----------- header -------- */
+  .desktop-logo {
+    display: none;
+  }
+  .mobile-logo {
+    max-width: 600px;
+  }
+
+  /* banner */
+  @media screen and (max-width: 750px){
+  .banner {
+      height: 400px;
+      background: #222;
+     
+  }
+
+  
+  .nav-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 750px;
+        margin: 0rem auto;
+  }
+
+  .nav-list ul {
+    flex-grow: 1; 
+    width: 100%;
+  }
+
+    /* display: flex;
+    flex-direction: column;
+     max-width: 750px;
+     margin: 0rem auto;
+     background-color: #222;
+     align-items: center;
+ } */
+
+ ul li a:hover{
+        background-color: #c78c06;
+        color:#222;
+        
+      }
+ul li a.active{
+    background-color: white;
+   color: white;
+ }
+
+ ul li input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+   
+  }
+ 
+ul li{
+     margin: 5px;
+     padding: 2px;
+     color: #c78c06;
+
+ }
+
+ .search {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+
+.img {
+    background: grey;
+    background-image: url('images/main-banner.jpg');
+  }
+  form{
+      padding: 2em;
+      margin: 2em;
+      background-color: rgba(0,0,0,0,6);
+  }
+
+/* --------------------------
+      Desktop Styles
+---------------------------- */
+
+@media screen and (min-width: 600px) {
+    html {
+      font-size: 16px;
+    }
+
+ @media screen and (min-width: 1200px) {
+    
+      }
