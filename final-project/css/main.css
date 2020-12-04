@@ -1,242 +1,216 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-
 body {
-  line-height: 1;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* ---------------------------------
-          Custom Styles
------------------------------------- */
-html {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    box-sizing: border-box;
-  }
-  
-  body {
-    line-height: 1.5;
+  background:lightgrey;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
   }
 
-  /* ----------- header -------- */
-  .desktop-logo {
-    display: none;
-  }
-  .mobile-logo {
-    max-width: 600px;
-  }
-
-  /* banner */
-  @media screen and (max-width: 750px){
-  .banner {
-      height: 400px;
-      background: #222;
-     
-  }
-
-  
-  .nav-list{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 750px;
-        margin: 0rem auto;
-  }
-
-  .nav-list ul {
-    flex-grow: 1; 
-    width: 100%;
-  }
-
-    /* display: flex;
-    flex-direction: column;
-     max-width: 750px;
-     margin: 0rem auto;
-     background-color: #222;
-     align-items: center;
- } */
-
- ul li a:hover{
-        background-color: #c78c06;
-        color:#222;
-        
-      }
-ul li a.active{
-    background-color: white;
-   color: white;
- }
-
- ul li input[type=text] {
-    padding: 6px;
-    font-size: 17px;
-    border: none;
-   
-  }
  
-ul li{
-     margin: 5px;
-     padding: 2px;
-     color: #c78c06;
-
- }
-
- .search {
-    float: none;
-    display: block;
-    text-align: left;
+  main{
+    padding: 0px;
+  }
+  img{
     width: 100%;
-    margin: 0;
-    padding: 14px;
   }
 
-.img {
-    background: grey;
-    background-image: url('images/main-banner.jpg');
+  .firs-image{
+    width: 100%;
   }
-  form{
-      padding: 2em;
-      margin: 2em;
-      background-color: rgba(0,0,0,0,6);
+  
+h1{
+  font-size: 60px;
+  margin-left: 10px;
+
+}
+
+p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a{
+  margin-left: 10px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+i{
+  color: black;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+  /* .welcome{
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  right: 50%;
+  width: 70%;
+  transform: translate(-45%, 20%);
+  color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+}  */
+
+
+.welcome{
+  position: absolute;
+  top: 20%;
+  margin-bottom: 10px;
+  background-color: rgba(32, 31, 31, 0.582);
+  width: 100%;
+  height: 70%;
+  text-align: left;
+  color: white;
+  
+}
+
+
+.intro{
+  position: relative;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+
+
+  p{
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .container{
+    max-width: 760px;
+    margin:0 auto;
   }
 
-/* --------------------------
-      Desktop Styles
----------------------------- */
+  .button-bannerr{
+    position: relative;
+    background-color:#c78c06;
+    font-size: 20px;
+    padding: 30px;
+    border: 1px solid black;
+    color: black;
+    position: relative;
+    top: 10%;
+    left: 0%;
+  }
 
-@media screen and (min-width: 600px) {
-    html {
-      font-size: 16px;
-    }
 
- @media screen and (min-width: 1200px) {
+/*************** About Us  *****************/
+
+.about{
+  max-width: 760px;
+  margin:0 auto;
+  background-color:#ffe6ac;
+}
+
+
+/*************** Our Services  *****************/
+.our-services{
+  max-width: 760px;
+  margin:0 auto;
+  background-color:white;
+}
+
+.digital, 
+.marketing,
+.video,
+.web,
+.print
+{
+  background-color:#ffe6ac;
+}
+
+/***********************************************************
+                        Mobile 
+ **********************************************************/
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul li{
+  padding: 10px;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1em;
+}
+
+/* header */
+.mobile-logo{
+  max-width: 150px;
+}
+
+.desktop-logo{
+  display: none;
+}
+
+
+.banner{
+  height: 400px;
+
+}
+
+.mobile-logo{  
     
-      }
+    background: #c78c06;
+    padding-right: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+
+header{
+background:#222;
+text-align: center;
+
+}
+
+ul li a{
+  color:  #c78c06;
+  text-align: center;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #c78c06;
+  color: #222;
+}
+
+ul li a:hover {
+  background-color:#c78c06;
+  color: white;
+}
+
+
+input{
+}
+
+button .im-magnifier{
+  width:50%;
+  margin: 0px;
+  padding: 10px;
+  background: #222;
+  color: #c78c06;
+  border: 1px solid #c78c06;
+
+}
+
+
+/***********************************************************
+                        Desktop
+ **********************************************************/
+@media screen and (min-width:760px){
+ul li{
+  float: left;
+}
+}
+
+/* @media screen and (max-width: 1200px){
+
+}  */
+
+@media screen and (min-width:760px) and (max-width: 1200px){
+  
+}
