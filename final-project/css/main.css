@@ -302,7 +302,9 @@ margin-top: 0.5em;
 /*************** Our VIsion *****************/
 
 .paper-boat{
-  width: 100%;
+    width: 100%; /* width of container */
+    height: 300px; /* height of container */
+    object-fit: cover;
 }
 
 .button-banner6{
@@ -317,7 +319,11 @@ margin-top: 0.5em;
   left: 0%;
 }
 
-
+/* .our-vision{
+  max-width: 760px;
+  text-align: left;
+  color: white;
+} */
 
 .our-visio i{
   position: absolute;
@@ -329,6 +335,48 @@ margin-top: 0.5em;
   margin-left: 10px;
 }
 
+
+.our-vision h2{
+  position: relative;
+  bottom: -110px;
+  right: 10px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* how to put text top of backgroudn */
+/* .our-vision h2{
+  position: relative;
+  bottom: -100px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+} */
+
+.our-vision p{
+  position: relative;
+  bottom: 200px;
+  right: 10px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.our-vision a{
+  position: relative;
+  bottom: 160px;
+  right: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/* .our-vision{
+  margin-top: 0px;
+} */
 /*************** Our Team *****************/
 .block1,
 .block2{
