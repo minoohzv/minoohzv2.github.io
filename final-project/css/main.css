@@ -302,8 +302,29 @@ margin-top: 0.5em;
   font-size: 8px;
   height:30px;
   width: 40px;
-  border: 1px solid black;
+  border: 1px solid #222;
 }
+
+/*************** Location *****************/
+
+
+
+
+
+
+
+/*************** Footer *****************/
+.footer{
+  max-width: 760px;
+  margin:0 auto;
+  background-color: #222;
+  color: #c78c06;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 12px;
+
+}
+
 
 /***********************************************************
                         Desktop
