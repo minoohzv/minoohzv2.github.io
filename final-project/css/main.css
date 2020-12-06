@@ -7,6 +7,7 @@ body {
  
   main{
     padding: 0px;
+    background: white;
   }
   img{
     width: 100%;
@@ -161,6 +162,26 @@ i{
 }
 
 
+/*************** Hours of operation  *****************/
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  
+}
+
+th, td {
+  text-align: left; 
+  padding: 10px;
+}
+
+table{
+  width:100%
+}
+
+table th{
+  background:#ffe6ac ;
+}
 
 
 /***********************************************************
