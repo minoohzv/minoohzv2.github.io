@@ -208,7 +208,8 @@ ul li{
 
 /* header */
 .mobile-logo{
-  max-width: 150px;
+  max-width: 100px;
+ 
 }
 
 .desktop-logo{
@@ -224,17 +225,30 @@ ul li{
 .mobile-logo{  
     
     background: #c78c06;
-    padding-right: 100%;
+    padding-right: 640px;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-right: 20px;
+    margin-bottom: 0px;
   }
 
 
 header{
 background:#222;
 text-align: center;
+}
+
+
+
+.current {
+background: #c78c06;
+color: #222;
+margin: 0px;
+padding: 4% 86.8% 5% 5%;
+margin-right: 20px;;
 
 }
+
 
 ul li a{
   color:  #c78c06;
