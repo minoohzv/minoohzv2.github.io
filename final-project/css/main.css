@@ -9,7 +9,7 @@ body {
     padding: 0px;
     background: white;
   }
-  .nav-list img{
+  img{
     width: 100%;
   }
 
@@ -129,7 +129,7 @@ a{
 {
   background-color:#ffe6ac;
   margin-bottom: 20px;
-  height: 415px;
+  height: 730px;
 
 }
 
@@ -444,6 +444,7 @@ margin-top: 0.5em;
   padding-left: 20px;
   padding-right: 20px;
 }
+
 /* how to put text top of backgroudn */
 /* .our-vision h2{
   position: relative;
@@ -480,7 +481,7 @@ margin-top: 0.5em;
 /*************** Our Team *****************/
 .block1,
 .block2{
-  height: 591px;
+  height: 680px;
   background-color:#ffe6ac;
   margin-bottom: 20px;
 }
