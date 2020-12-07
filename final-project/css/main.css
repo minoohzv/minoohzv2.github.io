@@ -2,9 +2,9 @@ body {
   background:lightgrey;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
-  max-width: 7600px;
   }
-  
+
+ 
   main{
     padding: 0px;
     background: white;
@@ -30,8 +30,7 @@ p{
 }
 
 a{
-  margin-left: 10px;
-  margin-top: 20px;
+
   text-decoration: none;
 }
 
@@ -113,7 +112,7 @@ a{
 /*************** Our Services  *****************/
 .our-services,
 .our-team,
-.contact-us,
+.contact-us
 {
   max-width: 760px;
   margin:0 auto;
@@ -193,14 +192,30 @@ table th{
  **********************************************************/
 ul{
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding-left: 0;
+  margin: 15px;
+  padding-top:15px;
 }
 ul li{
-  padding: 10px;
+
   width: 100%;
+  line-height:200%;
+  float: left;
+}
+ul li a{
+  color:  #c78c06;
+  text-align: center;
+  text-decoration: none;
+  display:        flex;
+  flex-grow:      1;
+  flex-shrink:    1;
+  justify-content: center;
 }
 
+ul li a:hover {
+  background-color: #c78c06;
+  color: #222;
+}
 .container {
   margin: 0 auto;
   padding: 1em;
@@ -209,29 +224,24 @@ ul li{
 /* header */
 .mobile-logo{
   max-width: 100px;
+ 
 }
-
 
 .desktop-logo{
   display: none;
 }
-
 
 .banner{
   height: 400px;
 
 }
 
-.mobile-logo{  
-    
-    background: #c78c06;
-    padding-right: 640px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-right: 20px;
-    margin-bottom: 0px;
-  }
-
+.logobackground
+{
+  background: #c78c06;
+  text-align: left;
+  width:100%;
+}
 
 header{
 background:#222;
@@ -256,30 +266,16 @@ text-align: center;
 } */
 
 
-ul li a{
-  color:  #c78c06;
-  text-align: center;
-  text-decoration: none;
-}
 
-ul li a:hover {
-  background-color: #c78c06;
-  color: #222;
-}
 
-ul li a:hover {
-  background-color:#c78c06;
-  color: white;
-}
+
  
 
 /******************************************
                 Search Bar 
 ******************************************/
 
-.search-icon{
-max-width: 750px;
-}
+
  
 form.example input[type=text] {
   padding: 5px;
@@ -292,7 +288,7 @@ form.example input[type=text] {
 
 form.example button {
   float: right;
-  width: 6%;
+  width: 7%;
   margin-right: 3%;
   padding-left: 1px;
   padding-left: 1px;
@@ -307,15 +303,16 @@ form.example button:hover {
   background: #c78c06;
 }
 
+Chris, [06.12.20 23:16]
 form.example::after {
   content: "";
   clear: both;
   display: table;
 }
- 
 
 .im-magnifier{
   color: #c78c06;
+  size: 10px;
 }
 /* .topnav .search-container {
   float: right;
@@ -394,7 +391,7 @@ margin-top: 0.5em;
   color: #c78c06;
   font-size: 14px;
   height:30px;
-  font-weight: lighter
+  font-weight: lighter;
   width: 60px;
   border: 1px solid #222;
 }
@@ -545,9 +542,7 @@ iframe{
                         Desktop
  **********************************************************/
 @media screen and (min-width:760px){
-ul li{
-  float: left;
-}
+
 }
 
 /* @media screen and (max-width: 1200px){
