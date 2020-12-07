@@ -2,9 +2,9 @@ body {
   background:lightgrey;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
+  max-width: 7600px;
   }
-
- 
+  
   main{
     padding: 0px;
     background: white;
@@ -113,7 +113,7 @@ a{
 /*************** Our Services  *****************/
 .our-services,
 .our-team,
-.contact-us
+.contact-us,
 {
   max-width: 760px;
   margin:0 auto;
@@ -209,8 +209,8 @@ ul li{
 /* header */
 .mobile-logo{
   max-width: 100px;
- 
 }
+
 
 .desktop-logo{
   display: none;
@@ -222,9 +222,8 @@ ul li{
 
 }
 
-
-
 .mobile-logo{  
+    
     background: #c78c06;
     padding-right: 640px;
     padding-top: 5px;
@@ -278,7 +277,9 @@ ul li a:hover {
                 Search Bar 
 ******************************************/
 
-
+.search-icon{
+max-width: 750px;
+}
  
 form.example input[type=text] {
   padding: 5px;
@@ -291,7 +292,7 @@ form.example input[type=text] {
 
 form.example button {
   float: right;
-  width: 7%;
+  width: 6%;
   margin-right: 3%;
   padding-left: 1px;
   padding-left: 1px;
@@ -311,10 +312,10 @@ form.example::after {
   clear: both;
   display: table;
 }
+ 
 
 .im-magnifier{
   color: #c78c06;
-  size: 10px;
 }
 /* .topnav .search-container {
   float: right;
