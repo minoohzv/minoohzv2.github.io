@@ -144,6 +144,7 @@ font-size: 30px;
 .button-banner5{
   position: relative;
   background-color:black;
+  margin-left: 10px;
   font-size: 20px;
   padding: 30px;
   border: 1px solid black;
@@ -411,9 +412,11 @@ margin-top: 0.5em;
   font-size: 20px;
   padding: 30px;
   border: 1px solid #c78c06;
+  margin: 0;
+  margin-left: 10px;
   color: white;
   position: relative;
-  top: 10%;
+  top: -30%;
   left: 0%;
 }
 
@@ -436,7 +439,7 @@ margin-top: 0.5em;
 
 .our-vision h2{
   position: relative;
-  bottom: -110px;
+  bottom: -100px;
   right: 10px;
   color: white;
   padding-left: 20px;
@@ -456,7 +459,7 @@ margin-top: 0.5em;
 
 .our-vision p{
   position: relative;
-  bottom: 200px;
+  bottom: 210px;
   right: 10px;
   color: white;
   padding-left: 20px;
