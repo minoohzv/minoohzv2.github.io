@@ -123,9 +123,14 @@ table {
 
 /* ********************************************************************************* */
 /* ********************************************************************************* */
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
 body {
   background:lightgrey;
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
   }
 
@@ -204,7 +209,7 @@ a{
     text-justify: inter-word;
   }
   .container{
-    max-width: 760px;
+    max-width: 1200px;
     margin:0 auto;
   }
 
@@ -428,6 +433,7 @@ form.example button {
 form.example button:hover {
   background: #c78c06;
 }
+
 
 form.example::after {
   content: "";
@@ -668,14 +674,63 @@ iframe{
 /***********************************************************
                         Desktop
  **********************************************************/
-@media screen and (min-width:760px){
+ @media screen and (min-width: 760px) {
+  html {
+    font-size: 16px;
+  }
 
+  .mobile-logo {
+    display: none;
+  }
+
+  .desktop-logo {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  
+  }
+  /* Navigation */
+  .nav-list {
+    display: flex;
+  }
+
+  .nav-list li {
+    flex: 1;
+    border: none;
+    
+    
+  }
+  .nav-list{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+  }
+
+  .main-nav{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+
+
+.masthead{
+  height: 120px;
 }
 
-/* @media screen and (max-width: 1200px){
+ul li a{
+  padding: 20px;
 
-}  */
+}
+.container{
+  max-width: 1200px;
+  margin:0 auto;
+}
 
-@media screen and (min-width:760px) and (max-width: 1200px){
+.about-us{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1em;
+}
+
   
 }
