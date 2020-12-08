@@ -429,7 +429,6 @@ form.example button:hover {
   background: #c78c06;
 }
 
-Chris, [06.12.20 23:16]
 form.example::after {
   content: "";
   clear: both;
