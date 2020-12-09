@@ -182,7 +182,7 @@ a{
 }  */
 
 .intro{
-background: url(/images/main-banner.jpg) no-repeat center;
+background: url(../images/main-banner.jpg) no-repeat center;
 background-size: cover;
 padding: 2em;
 }
