@@ -181,8 +181,31 @@ a{
   background-color: rgba(255, 255, 255, 0.5);
 }  */
 
+.intro{
+background: url(/images/main-banner.jpg) no-repeat center;
+background-size: cover;
+padding: 2em;
+}
+.intro h1{
+display: flexbox;
+}
+.rapper{
+  background-color: rgba(32, 31, 31, 0.582);
+  /* padding: 50px; */
+  color: white;
+  padding:2em;
+}
 
-.welcome{
+.intro a{
+ display: inline-block;
+  background-color:#c78c06;
+  font-size: 20px;
+  padding: 30px;
+  border: 1px solid black;
+  color: black;
+  margin-top: 1em;
+}
+/* .welcome{
   position: absolute;
   max-width: 760px;
   top: 20%;
@@ -193,18 +216,18 @@ a{
   text-align: left;
   color: white;
   
-}
+} */
 
 
-.intro{
+/* .intro{
   position: relative;
   max-width: 760px;
   margin: 0 auto;
-}
+} */
 
 
 
-  p{
+  /* p{
     text-align: justify;
     text-justify: inter-word;
   }
@@ -223,14 +246,14 @@ a{
     position: relative;
     top: 10%;
     left: 0%;
-  }
+  } */
 
 
 /*************** About Us  *****************/
 
 .about
 {
-  max-width: 760px;
+  max-width: 1200px;
   margin:0 auto;
   background-color:#ffe6ac;
 }
@@ -244,7 +267,6 @@ a{
 .our-team,
 .contact-us
 {
-  max-width: 760px;
   margin:0 auto;
   background-color:white;
 }
@@ -258,8 +280,11 @@ a{
 {
   background-color:#ffe6ac;
   margin-bottom: 20px;
-  height: 730px;
 
+}
+/* mobile button */
+.button-margin{
+  padding: 1em;
 }
 
 /*************** Digital transformation  *****************/
@@ -267,20 +292,20 @@ h2{
 font-size: 30px;
 }
 
+
 .button-banner1,
 .button-banner2,
 .button-banner3,
 .button-banner4,
 .button-banner5{
-  position: relative;
+  display:block;
   background-color:black;
   margin-left: 10px;
   font-size: 20px;
   padding: 30px;
   border: 1px solid black;
   color: white;
-  top: 5%;
-  left: 0%;
+  
 }
 
 
@@ -335,6 +360,8 @@ ul li{
 }
 ul li a{
   color:  #c78c06;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
   text-decoration: none;
   display:        flex;
@@ -361,9 +388,9 @@ ul li a:hover {
 .desktop-logo{
   display: none;
 }
-
+/*  */
 .banner{
-  height: 400px;
+  height: 420px;
 
 }
 
@@ -406,8 +433,16 @@ text-align: center;
                 Search Bar 
 ******************************************/
 
+form {
+  display: flex;
+  align-items: center;
 
+}
  
+.example button {
+  border: 1px solid #c78c06;
+  background-color: #222;
+}
 form.example input[type=text] {
   padding: 5px;
   font-size: 17px;
@@ -417,7 +452,8 @@ form.example input[type=text] {
   background: #f1f1f1;
 }
 
-form.example button {
+/* form.example button {
+
   float: right;
   width: 7%;
   margin-right: 3%;
@@ -428,7 +464,7 @@ form.example button {
   font-size: 10px;
   border: 1px solid #c78c06;
   cursor: pointer;
-}
+} */
 
 form.example button:hover {
   background: #c78c06;
@@ -535,8 +571,19 @@ margin-top: 0.5em;
     height: 300px; /* height of container */
     object-fit: cover;
 }
-
 .button-banner6{
+  display: flexbox;
+  background-color: rgba(59, 58, 58, 0.692);
+  font-size: 20px;
+  padding: 30px;
+  border: 1px solid #c78c06;
+  margin: 0;
+  margin-left: 10px;
+  color: white;
+  position: relative;
+}
+
+/* .button-banner6{
   position: relative;
   background-color: rgba(59, 58, 58, 0.692);
   font-size: 20px;
@@ -548,7 +595,7 @@ margin-top: 0.5em;
   position: relative;
   top: -30%;
   left: 0%;
-}
+} */
 
 /* .our-vision{
   max-width: 760px;
@@ -556,24 +603,24 @@ margin-top: 0.5em;
   color: white;
 } */
 
+.our-vision{
+  
+  position: relative;
+}
 .our-visio i{
   position: absolute;
   bottom: 8px;
   left: 16px;
 }
 
-.our-vision h2{
-  margin-left: 10px;
+.vision-info{
+  position: absolute;
+  top:2em;
 }
 
-
 .our-vision h2{
-  position: relative;
-  bottom: -100px;
-  right: 10px;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-bottom: 30px;
 }
 
 /* how to put text top of backgroudn */
@@ -588,21 +635,14 @@ margin-top: 0.5em;
 } */
 
 .our-vision p{
-  position: relative;
-  bottom: 210px;
-  right: 10px;
+
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  margin-bottom: 30px;
+  line-height: 1.4;
 }
 
 .our-vision a{
-  position: relative;
-  bottom: 160px;
-  right: 20px;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 
@@ -610,17 +650,21 @@ margin-top: 0.5em;
   margin-top: 0px;
 } */
 /*************** Our Team *****************/
-.block1,
-.block2{
-  height: 680px;
+.john-info,
+.bob-info{
   background-color:#ffe6ac;
-  margin-bottom: 20px;
 }
 
 h3{
-font-size:25px;
+font-size:20px;
+margin-top: 30px;
+margin-bottom: 10px;
+font-weight: bold;
 }
 
+label{
+font-size: 12px;
+}
 
 h3,
 h4{
@@ -632,7 +676,7 @@ h4{
   border-bottom-color: #c78c06;
   border-bottom-width: 2px;
   margin-left: 10px;
-
+  font-weight: bold;
   position: relative;
   width: 97%;
 
@@ -640,11 +684,15 @@ h4{
   /* text-decoration: underline;
   text-decoration-color: #c78c06;
   text-decoration-style: solid; */
-  font-size: 13px;
+  font-size: 12px;
 }
 
 
-
+p{
+  font-size: 11px;
+  margin-top: 10px;
+  line-height: 1.4;
+}
 
 
 /*************** Location *****************/
@@ -660,7 +708,6 @@ iframe{
 
 /*************** Footer *****************/
 .footer{
-  max-width: 760px;
   margin:0 auto;
   background-color: #222;
   color: #c78c06;
@@ -692,14 +739,17 @@ iframe{
   /* Navigation */
   .nav-list {
     display: flex;
+    align-items: center;
   }
 
   .nav-list li {
     flex: 1;
     border: none;
-    
-    
   }
+.nav-list li:last-child{
+  flex-basis: 150px;
+}
+
   .nav-list{
     padding-left: 10px;
     padding-right: 10px;
@@ -732,5 +782,170 @@ ul li a{
   column-gap: 1em;
 }
 
+
+/* button */
+.button-banner1,
+.button-banner2{
+  text-align: center;
+  background-color:black;
+  margin: 4px 2px;
+  font-size: 20px;
+  padding: 1em;
+  border: 1px solid black;
+  color: white;
+}
+
+/* Our services */
+
+
+
+.item1 { grid-area: A; }
+.item2 { grid-area: B; }
+.item3 { grid-area: C; }
+.item4 { grid-area: D; }
+.item5 { grid-area: E; }
+.item5 { grid-area: F; }
+
+
+.our-services1 {
+  display: grid;
+  grid-template-areas:
+                       "A A A A A A"
+                       "B B B C C C"
+                       "D D E E F F";
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 0.5rem;
   
+}
+
+.A{
+  grid-area: A;
+}
+
+.B{
+  grid-area: B;
+}
+
+.C{
+  grid-area: C;
+}
+
+.D{
+  grid-area: D;
+}
+
+.E{
+  grid-area: E;
+}
+
+.F{
+  grid-area: F;
+}
+
+.our-team1 A {
+  grid-area: A;
+}
+
+  
+
+/* .our-services1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+      "head head"
+      "left right1"
+      "left right2";
+    gap: 1em;
+}
+.our-services1 h2 {
+  grid-area: head;
+}
+
+.our-services1  .block3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+} */
+
+
+/* .our-services1 .center {
+  display: grid;
+  grid-template-columns:repeat(3, auto);
+  grid-template-areas:
+  "center center center"
+  column-gap: 1em;
+} */
+
+.our-team1{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+    "head head"
+    "left1 right1"
+    "left2 right2";
+}
+.john-info, .bob-info{
+  margin: 0px;
+}
+
+.bob-info{
+  grid-area: left2;
+}
+.our-team1 h2 {
+  grid-area: head;
+}
+
+/* .contact-us1{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+    "head head"
+    "left right1"
+    "left left";
+    gap: 1em;
+}
+.contact-us1 h2 {
+  grid-area: head;
+} */
+
+
+
+/* Our services */
+
+
+.item1 { grid-area: A; }
+.item2 { grid-area: B; }
+.item3 { grid-area: C; }
+.item4 { grid-area: D; }
+.item5 { grid-area: E; }
+.item5 { grid-area: F; }
+
+/* Contact us */
+.contact-us1 {
+  display: grid;
+  grid-template-areas:
+                       "G G G"
+                       "H H J"
+                       "M M M";
+  grid-column-gap: 1rem;
+}
+
+.G{
+  grid-area: G;
+}
+
+.H{
+  grid-area: H;
+}
+
+.J{
+  grid-area: J;
+  width: 100%;
+}
+
+.M{
+  grid-area: M;
+  background-color: white;
 }
