@@ -796,6 +796,18 @@ ul li a{
   color: white;
 }
 
+.button-banner3,
+.button-banner4,
+.button-banner5{
+  text-align: center;
+  background-color:black;
+  margin: 4px 2px;
+  font-size: 20px;
+  padding: 1em;
+  border: 1px solid black;
+  color: white;
+}
+
 /* Our services */
 
 
