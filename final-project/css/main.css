@@ -390,7 +390,7 @@ ul li a:hover {
 }
 /*  */
 .banner{
-  height: 420px;
+  height: 450px;
 
 }
 
@@ -736,6 +736,7 @@ iframe{
   width: 70px;
   
   }
+
   /* Navigation */
   .nav-list {
     display: flex;
@@ -762,9 +763,9 @@ iframe{
     
   }
 
-
+/* the side of the header */
 .masthead{
-  height: 120px;
+  height: 170px;
 }
 
 ul li a{
