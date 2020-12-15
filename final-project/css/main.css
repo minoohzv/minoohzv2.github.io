@@ -594,6 +594,8 @@ margin-top: 0.5em;
   background-size: cover;
   height: 250px;
   padding: 2em;
+  padding-left: 0em;
+  padding-right: 0em;
   }
   .our-vision h2{
   display: flexbox;
@@ -645,7 +647,7 @@ margin-top: 0.5em;
 .vision-info{
   position: absolute;
   top:2em;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .our-vision h2{
@@ -688,7 +690,7 @@ margin-top: 0.5em;
 
 h3{
 font-size:20px;
-margin-top: 30px;
+margin-top: 10px;
 margin-bottom: 10px;
 font-weight: bold;
 }
@@ -789,8 +791,8 @@ iframe{
   }
 
   .main-nav{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     
   }
 
