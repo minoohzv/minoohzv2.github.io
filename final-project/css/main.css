@@ -320,7 +320,7 @@ margin: 0px 0px 20px 0px;
   .button-banner5{
   margin-top: 15px;
   width: 42%;
-  font: normal normal normal 20px/1 'iconmonstr-iconic-font';
+  /* font: normal normal normal 20px/1 'iconmonstr-iconic-font'; */
   }
   
   
@@ -385,6 +385,7 @@ ul li a{
   flex-grow:      1;
   flex-shrink:    1;
   justify-content: center;
+  white-space: nowrap;
 }
 
 ul li a:hover {
@@ -784,11 +785,12 @@ iframe{
   flex-basis: 150px;
 }
 
-  .nav-list{
+  /* ******************EDIT********************* */
+  /* .nav-list{
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
-  }
+  } */
 
   .main-nav{
     padding-left: 10px;
@@ -796,13 +798,28 @@ iframe{
     
   }
 
+
+  /* ******************EDIT********************* */
+  .banner{
+    height:0px;
+  
+  }
+
+  .container ul{
+   
+    padding: 0em;
+  }
+/* *************************************** */
+
+
+
 /* the side of the header */
 .masthead{
-  height: 170px;
+  height: 150px;
 }
 
 ul li a{
-  padding: 20px;
+  padding: 24.5px;
 
 }
 .container{
