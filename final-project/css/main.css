@@ -326,6 +326,10 @@ margin: 0px 0px 20px 0px;
   
   }
 
+.rapper i{
+  color: black;
+}
+
 i{
   color: white;
   margin-left: 10px;
@@ -1012,3 +1016,4 @@ ul li a{
   grid-area: M;
   background-color: white;
 }
+ }
